@@ -11,3 +11,188 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Changa-Bd";
+  src: url('./fonts/Changa-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Quicksand-Rg";
+  src: url('./fonts/Quicksand-Medium.ttf');
+}
+
+@font-face {
+  font-family: "OpenSans-Rg";
+  src: url('./fonts/OpenSans-Regular.ttf');
+}
+
+a {
+  text-decoration: none;
+}
+
+.awssld__wrapper {
+  height: 100vh !important;
+}
+
+.awssld__bullets {
+  height: 5vh !important;
+}
+
+.awssld__controls__arrow-right::before {
+  background: white !important;
+}
+.awssld__controls__arrow-right::after {
+  background: white !important;
+}
+.awssld__controls__arrow-left::before {
+  background: white !important;
+}
+.awssld__controls__arrow-left::after {
+  background: white !important;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.defaultFontSize {
+  font-size: 1.5rem
+}
+
+.screen {
+  background-color: #72c64f;
+  height: 100vh;
+  width: 100vw;
+}
+
+.flex {
+  display: flex
+}
+
+.fontChanga {
+  font-family: Changa-Bd;
+}
+
+.fontQuicksand {
+  font-family: Quicksand-Rg;
+}
+
+.fontColorBrown {
+  color: #7d4e18
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* screenone */
+
+.mainScreenOne {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainKumbaya {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTabaco {
+  background-color: #72c64f;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.has-outline {
+  background: #72c64f;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+}
+
+.has-outline-mobile {
+  background: #72c64f;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  margin: 1rem
+}
+
+.has-outline:after {
+  border-radius: 50%;
+  padding: 5px;
+  border: 10px dashed #7d4e18;
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: 30px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.has-outline-mobile:after {
+  border-radius: 50%;
+  padding: 5px;
+  border: 6px dashed #7d4e18;
+  position: absolute;
+  content: '';
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chooseYourDestinyTitleDiv {
+  padding: 1rem;
+  width: 30vw;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7d4e18;
+  color: #72c64f;
+}
+
+.chooseYourDestinyAside {
+    width: 50vw;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+   padding: 2rem;
+   opacity: 0.8;
+}
+
+.chooseYourDestinyAside:hover {
+   opacity: 1;
+};
