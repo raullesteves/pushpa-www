@@ -2,7 +2,7 @@ import React from 'react';
 import SocialMedia from "./../components/SocialMedia";
 import { matinho } from "./../contants/images"
 
-const Kumbaya = ({imagem, nome, ervas, descricao}) => {
+const Kumbaya = ({imagem, nome, ervas, descricao, path_loja}) => {
     return (
         <div className="defaultFontSize fontColorBrown screen" style={{ display: "flex", flexDirection: "column" }}>
             <header style={{ padding: "1rem", height: "10vh", backgroundColor: "#7d4e18", display: "flex", justifyContent: "space-between" }}>
@@ -27,6 +27,9 @@ const Kumbaya = ({imagem, nome, ervas, descricao}) => {
                         </span>
                         <span className="fontQuicksand" style={{ fontFamily: "OpenSans-Rg", fontSize: "1rem", fontWeight: "bold", color: "#f8e0b8", margin: "2rem", textAlign: "center" }}>{ervas}</span>
                         <span className="fontQuicksand" style={{ fontSize: "1.5rem", fontWeight: "bold", color: "white", margin: "2rem", textAlign: "center" }}>{descricao}</span>
+                        <a href={`https://www.americanas.com.br/produto/${path_loja}`} className="fontQuicksand" style={{alignSelf: "center"}} target="_blank">
+                            Clique para comprar
+                        </a>
                     </div>
                 </main>
             </div>

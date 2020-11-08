@@ -9,6 +9,9 @@ const opcaoKumbaya = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfe
 const opcaoTabaco = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Fopcao_tabaco.jpeg?alt=media&token=d1c63c9d-e102-4c99-b9ca-3991f49fe696";
 const tabaco1 = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Ftabaco1.jpeg?alt=media&token=92ac2b00-42b3-4f64-944e-29c382302d12";
 const tabaco2 = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Ftabaco2.jpeg?alt=media&token=408f4be9-9d3e-4308-8f60-026ab82d4286";
+const americanasIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Famericanas-icone.png?alt=media&token=9566a4fe-2b58-4719-82fa-78d44f71ed12";
+const magaluIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Fmagalu-icone.png?alt=media&token=225cdb8f-5a3e-492b-9d79-7d64b6fe292b";
+const mercadoLivreIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Fmercado-livre-icone.png?alt=media&token=fc76a2ec-8a31-4194-ba6f-fc56f569042e";
 
 export {
     blendGaram,
@@ -21,5 +24,8 @@ export {
     matinho,
     opcaoTabaco,
     opcaoKumbaya,
-    floral
+    floral,
+    americanasIcone,
+    magaluIcone,
+    mercadoLivreIcone,
 }
