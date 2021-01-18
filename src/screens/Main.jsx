@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
-import { floral, americanasIcone, mercadoLivreIcone, magaluIcone } from "./../contants/images"
+import { floral, americanasIcone, mercadoLivreIcone, magaluIcone, shopeeIcone } from "./../contants/images"
 
 const Main = () => {
     const screenWidth = window.outerWidth;
@@ -16,7 +16,7 @@ const Main = () => {
                     </div>
                 </main>
                     <div style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginTop: ".4rem"}}>
-                        <span className="fontChanga textAlignCenter" style={{ fontSize: "2rem", fontSize: (screenWidth <= 320 ? ".9em" : "1em") }}>Onde comprar:</span>
+                        {/* <span className="fontChanga textAlignCenter" style={{ fontSize: "2rem", fontSize: (screenWidth <= 320 ? ".9em" : "1em") }}>Onde comprar:</span> */}
                         <a href="https://www.americanas.com.br/lojista/pushpa" target="_blank" style={{textDecoration: "none"}}>
                             <img src={americanasIcone} alt="lojas-americanas-icone" height="25px"/>
                             <span className="fontChanga textAlignCenter fontColorBrown" style={{ fontSize: "2rem", marginLeft: "1rem", fontSize: (screenWidth <= 320 ? ".9em" : "1em") }}>Americanas</span>
@@ -28,6 +28,10 @@ const Main = () => {
                         <a href="https://www.magazineluiza.com.br/lojista/pushpa/" target="_blank" style={{textDecoration: "none"}}>
                             <img src={magaluIcone} alt="magalu-icone" height="25px"/>
                             <span className="fontChanga textAlignCenter fontColorBrown" style={{ fontSize: "2rem", marginLeft: "1rem", fontSize: (screenWidth <= 320 ? ".9em" : "1em") }}>Magazine Luiza</span>
+                        </a>
+                        <a href="https://shopee.com.br/pushpaprodutosdaterra" target="_blank" style={{textDecoration: "none"}}>
+                            <img src={shopeeIcone} alt="shopee-icone" height="25px"/>
+                            <span className="fontChanga textAlignCenter fontColorBrown" style={{ fontSize: "2rem", marginLeft: "1rem", fontSize: (screenWidth <= 320 ? ".9em" : "1em") }}>Shopee</span>
                         </a>
                         <a className="fontChanga textAlignCenter fontColorBrown" href="https://www.instagram.com/pushpaprodutosdaterra/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faInstagram} size="lg" color={"black"} />
@@ -61,8 +65,11 @@ const Main = () => {
                         <img src={magaluIcone} alt="magalu-icone" height="25px"/>
                         <span className="fontChanga textAlignCenter fontColorBrown" style={{ fontSize: "2rem", marginLeft: "1rem" }}>Magazine Luiza</span>
                     </a>
+                    <a href="https://shopee.com.br/pushpaprodutosdaterra" target="_blank" style={{textDecoration: "none"}}>
+                        <img src={shopeeIcone} alt="shopee-icone" height="25px"/>
+                        <span className="fontChanga textAlignCenter fontColorBrown" style={{ fontSize: "2rem", marginLeft: "1rem" }}>Shopee</span>
+                    </a>
                     <Link to="/catalogo" className="fontChanga textAlignCenter fontColorBrown" style={{ fontSize: "3rem", textDecoration: "none" }}>CLIQUE PARA VER O CATÁLOGO DE PRODUTOS</Link>
-                    <span></span>
                     <a className="fontChanga textAlignCenter fontColorBrown" href="https://www.instagram.com/pushpaprodutosdaterra/" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram} size="lg" color={"black"} />
                         <span className="fontQuicksand" style={{marginLeft: "1rem", fontWeight: "bold"}}>

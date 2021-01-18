@@ -12,6 +12,7 @@ const tabaco2 = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.ap
 const americanasIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Famericanas-icone.png?alt=media&token=9566a4fe-2b58-4719-82fa-78d44f71ed12";
 const magaluIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Fmagalu-icone.png?alt=media&token=225cdb8f-5a3e-492b-9d79-7d64b6fe292b";
 const mercadoLivreIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Fmercado-livre-icone.png?alt=media&token=fc76a2ec-8a31-4194-ba6f-fc56f569042e";
+const shopeeIcone = "https://firebasestorage.googleapis.com/v0/b/helloworld-cfefd.appspot.com/o/pushpa%2Fshopee-icon.png?alt=media&token=c55a38d4-69b2-4f32-bb60-a9dd063b95a2";
 
 export {
     blendGaram,
@@ -28,4 +29,5 @@ export {
     americanasIcone,
     magaluIcone,
     mercadoLivreIcone,
+    shopeeIcone
 }
